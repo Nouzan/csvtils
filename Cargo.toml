@@ -1,0 +1,24 @@
+[package]
+name = "csvtils"
+version = "0.1.0"
+authors = ["Nouzan <clobraindie@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+clap-verbosity-flag = "0.3"
+structopt = "0.3"
+anyhow = "1.0"
+
+# tracing
+log = "0.4"
+tracing = "0.1"
+tracing-attributes = "0.1"
+
+# tracing-subscriber
+tracing-subscriber = "0.3.3"
+
+# tracing for futures support
+tracing-futures = "0.2"
+
+csv = "1"
+
